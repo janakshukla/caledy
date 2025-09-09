@@ -1,11 +1,12 @@
-import { ModeToggle } from "@/components/Toggle-theme";
+import NavBar from "@/components/NavBar";
+
 
 
 
 export default function page() {
   return (
-    <div className="bg-background text-accent-foreground" >
-      <ModeToggle/>
+    <div className="max-w-7xl mx-auto ">
+      <NavBar/>
     </div>
   )
 }
