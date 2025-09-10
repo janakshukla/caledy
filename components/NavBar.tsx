@@ -17,7 +17,7 @@ const NavBar = () => {
   return (
     <nav className=" flex justify-between bg-background  p-4">
       <div>
-        <h1 className="text-2xl flex gap-2 font-bold text-primary">
+        <h1 className="text-2xl flex items-center gap-2 font-bold text-primary">
           <Image src={Logo} alt="logo" className="size-10 rounded-full "  />
           Ca<span className=" -ml-2 text-foreground">ledy</span>{" "}
         </h1>
